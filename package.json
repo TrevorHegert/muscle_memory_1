@@ -1,0 +1,25 @@
+{
+  "name": "mmemory",
+  "version": "2.0.0",
+  "description": "Repeat of Natours Project for Retention Purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrevorHegert/muscle_memory_1.git"
+  },
+  "author": "Trevor N. Hegert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TrevorHegert/muscle_memory_1/issues"
+  },
+  "homepage": "https://github.com/TrevorHegert/muscle_memory_1#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}

@@ -1,8 +1,88 @@
 /*
 COLORS:
 
-Light green: #7ed56f
-Medium green: #55c57a
-Dark green: #28b485
+XLight brown: #c5b4a0
+Light brown: #c29375
+Medium brown: #a75e3b
+Dark brown: #7f452f
+XDark brown: #32281f
 
 */
+
+$color-primary-white: #e0d7cc;
+$color-primary-xlight: #c5b4a0;
+$color-primary-light: #c29375;
+$color-primary: #a75e3b;
+$color-primary-dark: #7f452f;
+$color-primary-xdark: #32281f;
+
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: rgba(197, 180, 160, 0.459);
+}
+
+body {
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #777;
+    padding: 3rem;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 95vh;
+    background-image: linear-gradient(to left top, rgba(194, 147, 117, 0.801), rgba(127, 70, 47, 0.801)), url("../img/hero_web_lg.jpg");
+    background-size: cover;
+    background-position: bottom;
+    clip-path: polygon(0 5%, 100% 0, 100% 92%, 0 100%);
+}
+
+.logo-box {
+    position: absolute;
+    top: 6rem;
+    left: 4rem;
+}
+
+.logo {
+    height: 10rem;
+    ;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading-primary {
+    color: #e0d7cc;
+    text-transform: uppercase;
+}
+
+.heading-primary-main {
+    font-size: 5rem;
+    font-weight: 400;
+    letter-spacing: 2.5rem;
+    margin-bottom: -1rem;
+}
+
+.heading-primary-sub {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1.4rem;
+}
